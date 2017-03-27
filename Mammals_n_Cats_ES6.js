@@ -10,6 +10,7 @@ class Mammal{
     this.name=name;
     this.offspring=[];
   }
+  //NO COMMAS!!
 
   //(2): create prototype methods (note these are happening INSIDE the Mammal block, unlike in ES5)
   haveBaby(){
@@ -20,6 +21,10 @@ class Mammal{
 
   sayHello(){
     return 'My name is '+this.name+'!';
+  }
+
+  static die(){//(2.5) class method
+    //...
   }
 }
 
