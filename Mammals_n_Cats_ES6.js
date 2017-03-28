@@ -44,7 +44,7 @@ class Cat extends Mammal{
 
   // (5): Inherit prototype methods from superclass:
   // Cat automatically inherits prototype methods ( haveBaby() and sayHello() ) from superclass Mammal.
-  // Think of this maybe as being already taken care of on line 31 (??)
+  // Think of this maybe as being already taken care of on line 36 (??)
 
   // (6): Assign prototype constructor property:
   // Cat instances' prototype constructor property will automatically reference the constructor Cat
